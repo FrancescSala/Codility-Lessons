@@ -1,5 +1,4 @@
-function frog (X, Y, D) {
-    console.log((Y-X) / D);
+function frogJmp (X, Y, D) {
     return Math.ceil((Y-X) / D);
 }
 
