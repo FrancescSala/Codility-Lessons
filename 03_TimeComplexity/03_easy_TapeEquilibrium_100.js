@@ -1,4 +1,4 @@
-function tapeEquilibrium(A) {
+function solution(A) {
     let sumLeft = Array(A.length);
     A.reduce((accum,elem,index) => {
         sumLeft[index] = accum;

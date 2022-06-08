@@ -17,7 +17,7 @@ class freqTable {
 }
 
 
-function maxCounters(N, A) {
+function solution(N, A) {
     let ft = new freqTable();
     let from = 0;
     let j = A.indexOf(N+1,from);

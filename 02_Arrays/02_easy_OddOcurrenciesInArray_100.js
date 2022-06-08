@@ -18,12 +18,10 @@ class frequencyTable {
     }
 }
 
-function oddOccurrenciesInArray(A) {
+function solution(A) {
     let freqTable = new frequencyTable();
     A.forEach(element => freqTable.addElement (element));
     return Number.parseInt(freqTable.getUnpaired()[0]);
 }
-
-console.log(oddOccurrenciesInArray([0, 1, 2, 3, 4, 3, 2, 1, 0]));
 
 

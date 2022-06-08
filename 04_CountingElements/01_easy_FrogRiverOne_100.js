@@ -1,4 +1,4 @@
-function frogRiverOne(X, A) {
+function solution(X, A) {
     let stepFound = Array(X+1).fill(false);
     let pendingSteps = X;
     let arrivalTime = -1;

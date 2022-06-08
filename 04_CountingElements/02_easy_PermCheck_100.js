@@ -1,4 +1,4 @@
-function permCheck(A) {
+function solution(A) {
     let N = A.length;
     let frequencies = Array(N).fill(0);
     for (let i = 0; i < N; i++) {
