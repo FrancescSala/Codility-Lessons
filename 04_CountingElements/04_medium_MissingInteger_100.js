@@ -6,4 +6,4 @@ function solution(A) {
     return result;
 }
 
-// it is efficient in time, but occupies quite a lot of memory as the integer in the array are in the range [1..100000]
+// it is efficient in time, but occupies quite a lot of memory as the integers in the array are in the range [1..100000]
